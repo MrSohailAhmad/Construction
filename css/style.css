@@ -1,0 +1,212 @@
+@media (max-width: 767px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .column {
+        width: 25%;
+    }
+}
+
+.bg-yellow {
+    background-color: #fecb10;
+    font-size: 0.9rem;
+}
+
+.main-image {
+    height: 90vh;
+}
+
+.jumbotron {
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+.service {
+    background-color: #eff6fd;
+}
+
+.service h1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.service h2 {
+    font-size: 25px;
+    font-weight: 1300;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.btn-sohail {
+    background: black;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.btn-ahmad {
+    border: 0px;
+}
+
+footer {
+    margin-top: 0px;
+}
+
+.page-footer .time {
+    border: 1px solid white;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.jumbotron .container .card-header {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+@media (min-width: 769px) {
+    .jumbotron .contacts #form3 {
+        width: 215px;
+    }
+    .jumbotron .contacts .btn-dark {
+        margin-left: -58px;
+        margin-top: 1px;
+        padding: 10px 25px 10px 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    .jumbotron .contacts #form3 {
+        width: 335px;
+    }
+    .jumbotron .contacts .btn-dark {
+        margin-left: -35px;
+        margin-top: 1px;
+        padding: 10px 25px 10px 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbotron .contacts #form3 {
+        width: 425px;
+    }
+    .jumbotron .contacts .btn-dark {
+        margin-left: -22px;
+        margin-top: 1px;
+        padding: 10px 25px 10px 25px;
+    }
+}
+
+.jumbotron.wellcome .mybtn {
+    margin-left: 0px;
+    letter-spacing: 2px;
+}
+
+.jumbotron.service2 .cardbtn {
+    margin-left: 0px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.jumbotron.service2 .my-card {
+    margin-bottom: 20px;
+}
+
+.social ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.social ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #fecb10;
+    margin: 0 2px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.social ul li a {
+    display: block;
+    color: #111;
+    font-size: 30px;
+}
+
+.social ul li a i {
+    line-height: 5px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.time {
+    width: 50px;
+    height: 50px;
+    background: none;
+    margin: 0 5px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.time p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1px;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
